@@ -1,0 +1,49 @@
+#image-header{
+    width: 15%;
+    height: auto;
+}
+.Logo{
+    margin-top: 5em;
+    display: flex;
+    justify-content: center;
+}
+.card .text-center{
+    height: 100%;
+    width: 100%;
+}
+.card-header{
+    padding: 2em;
+    display: flex;
+    background-color: #222;
+    /*background: linear-gradient(#1a1e35, black);*/
+}
+.card-body{
+    color: white;
+    Background: black;
+    height: 80%;
+    /*background-image: linear-gradient(#1a1e35, black);*/
+    /*color: #7DF5F8*/
+}
+img{
+    height: 200px;
+    width: 400px;
+}
+.corner-header{
+    padding: 0;
+    margin-top: 0;
+    height: 60px;
+    width: 60px;
+}
+#Info-Form{
+     width: 50%;
+}
+body{
+    /*background: linear-gradient(#1a1e35, black);*/
+    background-color: #222222;
+    color: white;
+}
+.btn{
+    background-color: #7DF5F8;
+    color: black;
+    width: 100%;
+}
