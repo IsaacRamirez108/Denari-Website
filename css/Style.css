@@ -1,10 +1,14 @@
-body{
+body, nav{
     background: linear-gradient(#1a1e35, black);
     color: white;
 }
 #image-header{
     width: 80px;
     height: 80px;
+}
+#Main-Logo {
+    width: 300px;
+    height: auto;
 }
 .btn{
     background-color: #7DF5F8;
@@ -21,7 +25,7 @@ body{
 h1{
     display: flex;
     justify-content: center;
-    font-size: xxx-large;
+    /*font-size: 60px;*/
     font-family: 'Raleway';
     margin-top: 2em;
 }
@@ -32,4 +36,10 @@ h1{
     width: 50%;
     margin-top: 30px;
 }
+p, h3{
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway';
+}
+
 
