@@ -1,38 +1,31 @@
 body{
     background: linear-gradient(#1a1e35, black);
-    /*background-color: #222222;*/
     color: white;
 }
 #image-header{
     width: 80px;
     height: 80px;
 }
-.Logo{
-    display: flex;
-    justify-content: center;
-    width: 45%;
-    height: auto;
-    margin-top: 5em;
-}
-img{
-    height: 200px;
-    width: 400px;
-}
-.corner-header{
-    padding: 0;
-    margin-top: 0;
-    height: 60px;
-    width: 60px;
-}
 .btn{
     background-color: #7DF5F8;
     color: black;
 }
 #Info-Form{
-    margin-left: 22em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
     margin-top: 18em;
+    margin-bottom: 18em;
 }
-a{
-    /*font-family: ;*/
+h1{
+    display: flex;
+    justify-content: center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
