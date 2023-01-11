@@ -1,6 +1,13 @@
-body, nav{
+body{
+    /*background: linear-gradient(#1a1e35, black);*/
+    color: Black;
+    font-family: 'Raleway';
+}
+.navbar{
     background: linear-gradient(#1a1e35, black);
-    color: white;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
 }
 #image-header{
     width: 80px;
@@ -11,15 +18,16 @@ body, nav{
     height: auto;
 }
 .btn{
-    background-color: #7DF5F8;
-    color: black;
+    /*background-color: #7DF5F8;*/
+    background: linear-gradient(#1a1e35, black);
+    color: white;
 }
 #Info-Form{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
-    margin-top: 18em;
+    margin-top: 10em;
     margin-bottom: 18em;
 }
 h1{
@@ -27,7 +35,7 @@ h1{
     justify-content: center;
     /*font-size: 60px;*/
     font-family: 'Raleway';
-    margin-top: 2em;
+    margin-top: 4em;
 }
 .center{
     display: block;
@@ -39,7 +47,31 @@ h1{
 p, h3{
     display: flex;
     justify-content: center;
+    align-content: center;
     font-family: 'Raleway';
+    margin-top: 1.5em;
+    padding: 1em;
+}
+p{
+    margin-left: 1.5em;
+}
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.row{
+    background: linear-gradient(#1a1e35, black);
+    /*color: #7DF5F8;*/
+    color: white;
+    margin-top: 5em;
+    padding: 8em;
 }
 
 
